@@ -16,9 +16,14 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.middle-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .half-width {
     width: 50%;
-    margin-left: 5%;
+    margin: 5%;
 }
 .half-width p {
     text-align: justify;
@@ -34,6 +39,37 @@ section {
     
 }
 .half-width img {
-    width: 80%;
-   
+    width: 100%;
+}
+.resume-botton {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgba(255, 0, 0, 0.815));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.futer-leftsite h1 {
+    margin-left: 50px;
+}
+.futer-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.se3h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.section-3-div {
+    width: 50%;
+    margin: 5%;
+    border-left: 5px solid orange;
+    padding: 10px 0px 10px 20px;
+    box-shadow: 10px 10px 10px 10px #88888848;
+}
+.section-3-div h3{
+    color: orange;
 }
